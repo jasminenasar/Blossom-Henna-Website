@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Henna</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+</head>
+<body>
+    <header class="header">
+        
+        <nav class="navbar navbar-expand-lg  custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Blossom Henna</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#img-container">Designs</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Choose Occation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Wedding</a></li>
+                                <li><a class="dropdown-item" href="#">Engagement</a></li>
+                                <li><a class="dropdown-item" href="#">party</a></li>
+                                <li><a class="dropdown-item" href="#">functional</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./appointment.html">Appointment</a>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section id="designs">
+    <h3> Blossom Henna — where every design blooms beautifully.</h3>
+
+    <figure>
+        <img src="./Assets/bridal.jpg" alt="Bridal henna design">
+        <figcaption>Bridal Henna</figcaption>
+    </figure>
+</section>
+<section id="Description">
+    
+     <p>Henna is a timeless and meaningful art form rooted in tradition and culture, celebrated for its beauty and elegance
+    across generations. Each henna design is carefully handcrafted, reflecting creativity, emotion, and personal expression
+    while symbolizing love, joy, positivity, and new beginnings.</p>
+    <p><b>Blossom Henna</b> brings tradition to life through beautifully handcrafted henna designs. From bridal to festive and special
+    occasions, we create elegant patterns with care, creativity, and premium natural henna to make your moments truly
+    unforgettable.</p>
+    
+    
+</section>
+    <!--<a href="https://www.freepik.com/free-photo/hindu-bride-shows-her-hands-covered-with-henna-tattoos_3984969.htm">Image by
+        freepic.diller on Freepik</a>*/    and <a href="https://www.freepik.com/free-photo/bride-s-mehndi-hands_3056619.htm">Image by senivpetro on Freepik</a>-->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-cards">
+    <article>
+        <h4>Bridal Henna</h4>
+        <h6>Elegant and traditional bridal designs.</h6>
+        <p>Bridal henna is a timeless tradition, delicately crafted to celebrate love, joy, and new beginnings. Each design is
+        created with care to make your special day unforgettable.</p>
+        
+    </article>
+    <img src="./Assets/bridalsamp.jpg" alt="Bridal henna design" width="300px" height="200px">
+    <article>
+        <h4>Engagement Henna</h4>
+        <h6>elebrate your special beginning with elegans.</h6>
+        <p>Soft, graceful designs that highlight love, tradition, and togetherness—perfect for intimate ceremonies and joyful
+        moments.</p>
+      
+    </article>
+     <img src="./Assets/wedding.jpg" alt="Engagement henna design">
+    
+    <article>
+        <h4>Party Henna</h4>
+        <h6>Henna designs made to match your vibe</h6>
+        <p>Party henna adds a touch of fun and elegance to any celebration, featuring trendy designs that perfectly complement your
+        festive look.</p>
+    </article>
+      <img src="./Assets/party.jpg" alt="Party henna design">
+    <article>
+        <h4>Festival Henna</h4>
+        <h6>Perfect for festivals.</h6>
+        <p>Festival henna adds a touch of fun and elegance to any celebration, featuring trendy designs that perfectly
+            complement your
+            festive look.</p>
+    </article>
+      <img src="./Assets/occation.jpg" alt="Party henna design">
+    </div>
+</section>
+
+<section id="form">
+  <h4><i>For Appointment</i></h4><button onclick=Booking()>Click Here</button>
+</section>
+
+<section id="img-container">
+    <h6>Petals of Henna Art</h6>
+    <div class="gallery">
+        <button class="arrow left">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+    
+        <img id="galleryImage" src="Assets/maternity2.jpg" alt="Henna design">
+    
+        <button class="arrow right">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h3>Contact Us</h3>
+
+    <address>
+        <p> Thanjavur, India</p>
+        <p>Email : jasminenasar@gmail.com</p>
+        <div class="social-icons">
+            <h5>Follow Us</h5>
+            <a href="https://www.instagram.com/blossom_bridal_henna?utm_source=qr&igsh=MWZtZTJ3dW8wNGRibw=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="links">
+            <h5>Links</h5>
+            <div class="footer-links">
+            <a href="#"> Home</a>
+            <a href="#img-container"> Designs</a>
+            <a href="#form">Register</a>
+            </div>
+        </div>
+    </address>
+    
+</section>
+<footer>
+    <p>© 2026 Blossom Henna. All rights reserved.</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
